@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:windowBackground">@color/color_FEFEFE</item>
+    </style>
+
+
+<!--
+    <style name="AppTheme.Login">
+        <item name="android:windowBackground">@drawable/gradient</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">0</item>
+        <item name="android:windowEnterTransition">@transition/login_enter</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        <item name="android:windowReenterTransition">@android:transition/fade</item>
+        <item name="android:windowReturnTransition">@android:transition/slide_bottom</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+    </style>
+
+    <style name="AppTheme.ForgotPassword">
+        <item name="android:windowEnterTransition">@transition/forgot_password_enter</item>
+        <item name="android:windowExitTransition">@android:transition/slide_bottom</item>
+        <item name="android:windowReturnTransition">@android:transition/fade</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+-->
+
+
+
+</resources>

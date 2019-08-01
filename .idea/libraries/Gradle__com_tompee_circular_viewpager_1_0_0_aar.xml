@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tompee:circular-viewpager:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7b18a0fa35e5e3f99dc83cfdb71e9cd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7b18a0fa35e5e3f99dc83cfdb71e9cd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tompee/circular-viewpager/1.0.0/83ebdd0a8db751d71a0cb46b64d0147fca19ca5f/circular-viewpager-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

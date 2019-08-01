@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="StepsViewIndicator">
+        <attr name="numOfSteps" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SquareImageView">
+        <attr name="siv_by_height" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_progressColor" format="color"/>
+        <attr name="cpv_border_width" format="dimension"/>
+        <attr name="cpv_height_accent" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButtonView">
+        <attr name="pbv_progressColor" format="color"/>
+        <attr name="pbv_progressSize" format="dimension"/>
+        <attr name="pbv_progressBorderWidth" format="dimension"/>
+        <attr name="pbv_progressPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AspectHelper">
+        <attr name="aspect_width" format="integer"/>
+        <attr name="aspect_height" format="integer"/>
+        <attr name="aspect_by_height" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="VectorCompatTextView">
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="drawableWidth" format="dimension"/>
+        <attr name="drawableHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PlacesAutoCompleteView">
+        <attr name="gac_debounce" format="integer"/>
+        <attr name="gac_min_start_search" format="integer"/>
+        <attr name="gac_max_result" format="integer"/>
+        <attr name="gac_init_adapter" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ExRecyclerView">
+        <attr name="erv_backgroundDrawable" format="reference"/>
+        <attr name="erv_progressColor" format="color"/>
+        <attr name="erv_progressBorderWidth" format="dimension"/>
+        <attr name="erv_progressSize" format="dimension"/>
+        <attr name="erv_textSize" format="dimension"/>
+        <attr name="erv_textColor" format="color"/>
+        <attr name="erv_textGravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="top" value="48" />
+        </attr>
+        <attr name="erv_textMarginLeft" format="dimension"/>
+        <attr name="erv_textMarginTop" format="dimension"/>
+        <attr name="erv_textMarginRight" format="dimension"/>
+        <attr name="erv_textMarginBottom" format="dimension"/>
+        <attr name="erv_background_duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontTextView">
+        <attr name="customFont" format="string"/>
+        <attr name="textStyle" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
+        <attr name="stpi_stepCount" format="integer"/>
+        <attr name="stpi_animDuration" format="integer"/>
+
+        <attr name="stpi_circleColor" format="color"/>
+        <attr name="stpi_circleRadius" format="dimension"/>
+        <attr name="stpi_circleStrokeWidth" format="dimension"/>
+
+        <attr name="stpi_indicatorColor" format="color"/>
+        <attr name="stpi_indicatorRadius" format="dimension"/>
+
+        <attr name="stpi_lineColor" format="color"/>
+        <attr name="stpi_lineDoneColor" format="color"/>
+        <attr name="stpi_lineStrokeWidth" format="dimension"/>
+        <attr name="stpi_lineMargin" format="dimension"/>
+
+        <attr name="stpi_showDoneIcon" format="boolean"/>
+        <attr name="stpi_showStepNumberInstead" format="boolean"/>
+        <attr name="stpi_doneIconDrawable" format="reference"/>
+
+        <attr name="stpi_useBottomIndicator" format="boolean"/>
+        <attr name="stpi_useBottomIndicatorWithStepColors" format="boolean"/>
+        <attr name="stpi_bottomIndicatorHeight" format="dimension"/>
+        <attr name="stpi_bottomIndicatorWidth" format="dimension"/>
+        <attr name="stpi_bottomIndicatorMarginTop" format="dimension"/>
+
+        <attr name="stpi_stepsCircleColors" format="reference"/>
+        <attr name="stpi_stepsIndicatorColors" format="reference"/>
+
+        <attr name="stpi_labels" format="reference"/>
+        <attr name="stpi_showLabels" format="boolean"/>
+        <attr name="stpi_labelMarginTop" format="dimension"/>
+        <attr name="stpi_labelSize" format="dimension"/>
+        <attr name="stpi_labelColor" format="color"/>
+    </declare-styleable>
+
+
+
+</resources>

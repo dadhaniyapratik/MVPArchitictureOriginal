@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="transition_splash">transition_splash</string>
+
+    <string name="transition_appbar">transition_appbar</string>
+
+    <string name="transition_recipe_detail_img">transition_recipe_detail_img</string>
+
+</resources>

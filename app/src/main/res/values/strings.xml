@@ -1,0 +1,15 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">5234</string>
+    <string name="error_something_worng">There is something wrong with the sever.</string>
+    <string name="app_name">MVPArchiticture</string>
+    <string name="lbl_tvNoInternetTitle_activity">No Internet Connection</string>
+    <string name="lbl_tvNoInternetDescription_activity">Please check your internet\nconnection and try again.</string>
+    <string name="lbl_btnRetry_activity">TRY AGAIN</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="lbl_okay">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_no_internet_connection">You are not connected with the internet. Please turn on.</string>
+    <string name="error_timeout">Connection time out.</string>
+    <string name="base_info_error">MVPArchiticture</string>
+    <string name="base_info_success">MVPArchiticture</string>
+</resources>

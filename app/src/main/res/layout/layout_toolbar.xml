@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    style="@style/Toolbar"
+    android:background="@color/color_EF3340">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/liMain"
+        style="@style/Toolbar"
+        android:layout_marginEnd="@dimen/_8asdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivToolbarLeft"
+            android:layout_width="@dimen/_30asdp"
+            android:layout_height="@dimen/_30asdp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_8asdp"
+            android:tint="@color/md_white"
+            android:src="@drawable/ic_back_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/ivToolbarMiddle"
+            android:layout_width="@dimen/_65asdp"
+            android:layout_height="@dimen/_25asdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontTextView
+            android:id="@+id/tvToolbarMiddle"
+            tools:ignore="MissingConstraints"
+            tools:text="Skip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_white"
+            android:textSize="@dimen/_12asdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textStyle="@integer/helvetica_neue_light" />
+
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontTextView
+            android:id="@+id/tvToolbarRight"
+            tools:ignore="MissingConstraints"
+            tools:text="Skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_white"
+            android:textSize="@dimen/_12asdp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textStyle="@integer/helvetica_neue_medium" />
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivToolbarRight"
+            tools:ignore="MissingConstraints"
+            android:layout_width="@dimen/_30asdp"
+            android:layout_height="@dimen/_30asdp"
+            android:src="@drawable/ic_close"
+            android:tint="@color/md_white"
+            android:visibility="gone"
+            android:padding="@dimen/_8asdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_D8D8D8"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/description_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/base_dialog_24"
+        android:layout_marginLeft="@dimen/base_dialog_24"
+        android:layout_marginRight="@dimen/base_dialog_24"
+        android:layout_marginStart="@dimen/base_dialog_24"
+        android:gravity="center"
+        android:minHeight="@dimen/base_progress_size"
+        android:paddingTop="@dimen/base_dialog_24"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="Loadingasdas,dals,ld,al,la,sdasd
+        asd
+        asd
+        as
+        d
+        asd"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/base_dialog_24"
+        android:layout_marginLeft="@dimen/base_dialog_24"
+        android:layout_marginRight="@dimen/base_dialog_24"
+        android:layout_marginStart="@dimen/base_dialog_24"
+        android:indeterminate="true"
+        android:paddingTop="@dimen/base_dialog_8"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dialog_24"
+        />
+
+</LinearLayout>

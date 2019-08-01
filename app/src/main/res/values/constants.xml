@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="font_style_light">10</integer>
+    <integer name="font_style_extra_light">11</integer>
+    <integer name="font_style_extra_bold">12</integer>
+    <integer name="font_style_medium">13</integer>
+
+
+    <integer name="helvetica_neue_light">20</integer>
+    <integer name="sfpro_display_light">21</integer>
+    <integer name="sfpro_display_regular">22</integer>
+    <integer name="helvetica_neue_bold">23</integer>
+    <integer name="helvetica_neue_medium">24</integer>
+    <integer name="helvetica_neue_thin">25</integer>
+    <integer name="sfpro_text_medium">26</integer>
+    <integer name="sfpro_text_regular">27</integer>
+    <integer name="sfpro_display_bold">28</integer>
+    <integer name="helvetica_neue_regular">29</integer>
+    <integer name="helvetica_neue">31</integer>
+    <integer name="sfpro_display_medium">30</integer>
+
+
+
+
+</resources>

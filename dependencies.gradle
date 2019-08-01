@@ -1,0 +1,182 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext.versions = [
+        minSdk            : 19,
+        targetSdk         : 28,
+        compileSdk        : 28,
+        buildTools        : '28.0.3',
+
+        // Gradle plugins
+        gradle            : '3.4.1',
+        androidApt        : '1.8',
+        kotlinGradlePlugin: '1.3.21',
+        kotlin            : '1.3.21',
+
+        supportLibrary    : '28.0.0',
+        arch              : '1.0.0-alpha1',
+
+        baseProject       : '2.0.13',
+
+        constraintLayout  : '1.1.3',
+
+        dagger            : '2.11-rc2',
+
+        // Google Play Service
+        gms               : '12.0.0',
+
+        // Network
+        retrofit          : '2.2.0',
+        okLog             : '2.1.0',
+        okHttpLogging     : '3.4.1',
+        gson              : '2.8.0',
+
+        // Rx
+        rxJava            : '2.2.7',
+        rxKotlin          : '2.3.0',
+        rxAndroid         : '2.1.1',
+        rxBindings        : '3.0.0-alpha2',
+        rxPermissions     : '0.9.3@aar',
+
+        //DB
+        greenDao          : '3.2.2',
+        realm             : '3.1.3',
+
+        // Image
+        glide             : '3.7.0',
+
+        // ExoPlayer
+        exoplayer         : 'r2.4.1',
+
+        // Debug
+        timber            : '4.5.1',
+        rxRelay           : '2.0.0',
+        leakCanary        : '1.5',
+
+        // Blur
+        blurry            : '3.0.0',
+
+        // Other
+        facebookSdk       : '4.20.0',
+        asdp              : '1.1',
+        swipeLayout       : '1.2.0@aar',
+        textdrawable      : '1.0.1',
+        pagerIndicator    : '0.1.2',
+
+        materialColors    : '3.0.0',
+
+
+        otto              : '1.3.7',
+        rxpermissions2    : '0.9.5@aar',
+
+        crashlytics       : '2.9.1@aar',
+        androidJob        : '1.2.1',
+
+        stethoDebug       : '1.4.2',
+        stethoOkHttpDebug : '1.4.2',
+        stethoRelease     : '1.1',
+        intercom          : '4.+',
+
+        multipicker       : '1.1.31@aar',
+        zxing             : '1.9.8'
+]
+
+ext.gradlePlugins = [
+        gradle    : "com.android.tools.build:gradle:$versions.gradle",
+        androidApt: "com.neenbedankt.gradle.plugins:android-apt:$versions.androidApt",
+        kotlin    : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlinGradlePlugin",
+        kotlinExtension  : "org.jetbrains.kotlin:kotlin-android-extensions:$versions.kotlinGradlePlugin"
+]
+
+ext.libraries = [
+        kotlin               : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin",
+
+        supportAppCompat     : "com.android.support:appcompat-v7:$versions.supportLibrary",
+        supportDesign        : "com.android.support:design:$versions.supportLibrary",
+        supportAnnotations   : "com.android.support:support-annotations:$versions.supportLibrary",
+        constraintLayout     : "com.android.support.constraint:constraint-layout:$versions.constraintLayout",
+        recyclerView         : "com.android.support:recyclerview-v7:$versions.supportLibrary",
+        customTabs           : "com.android.support:customtabs:$versions.supportLibrary",
+        supportFragment      : "com.android.support:support-fragment:$versions.supportLibrary",
+
+        archRoom             : "android.arch.persistence.room:runtime:$versions.arch",
+        archRoomCompiler     : "android.arch.persistence.room:compiler:$versions.arch",
+
+        otto                 : "com.squareup:otto:$versions.otto",
+        rxpermissions2        : "com.tbruyelle.rxpermissions2:rxpermissions:$versions.rxpermissions2",
+        rxPermissions        : "com.tbruyelle.rxpermissions2:rxpermissions:$versions.rxPermissions",
+
+        baseAll              : "com.github.artemkopan:base-all:$versions.baseProject",
+        baseMvp              : "com.github.artemkopan:base-mvp:$versions.baseProject",
+        baseUtils            : "com.github.artemkopan:base-utils:$versions.baseProject",
+        baseRecycler         : "com.github.artemkopan:base-recycler:$versions.baseProject",
+        baseWidget           : "com.github.artemkopan:base-widget:$versions.baseProject",
+
+        dagger               : "com.google.dagger:dagger:$versions.dagger",
+        daggerCompiler       : "com.google.dagger:dagger-compiler:$versions.dagger",
+        daggerAndroid        : "com.google.dagger:dagger-android:$versions.dagger",
+        daggerAndroidCompiler: "com.google.dagger:dagger-android-processor:$versions.dagger",
+        daggerAndroidSupport : "com.google.dagger:dagger-android-support:$versions.dagger",
+
+        // Google Play Service
+        gmsFitness           : "com.google.android.gms:play-services-fitness:$versions.gms",
+        gmsGCM               : "com.google.android.gms:play-services-gcm:$versions.gms",
+        gmsLocation          : "com.google.android.gms:play-services-location:$versions.gms",
+        firebaseMessaging    : "com.google.firebase:firebase-messaging:$versions.gms",
+        gmsAuth              : "com.google.android.gms:play-services-auth:$versions.gms",
+        firebaseCore         : "com.google.firebase:firebase-core:$versions.gms",
+        firebaseConfig       : "com.google.firebase:firebase-config:$versions.gms",
+
+        //DB
+        greenDao             : "org.greenrobot:greendao:$versions.greenDao",
+
+        retrofit             : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+        converterGson        : "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+        converterJackson     : "com.squareup.retrofit2:converter-jackson:$versions.retrofit",
+        rxJavaAdapter        : "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit",
+        okHttpLogging        : "com.squareup.okhttp3:logging-interceptor:$versions.okHttpLogging",
+        gson                 : "com.google.code.gson:gson-parent:$versions.gson",
+
+        timber               : "com.jakewharton.timber:timber:$versions.timber",
+        okLog                : "com.github.simonpercic:oklog3:$versions.okLog",
+
+        leakCanaryDebug      : "com.squareup.leakcanary:leakcanary-android:$versions.leakCanary",
+        leakCanaryRelease    : "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leakCanary",
+
+        stethoDebug          : "com.facebook.stetho:stetho:$versions.stethoDebug",
+        stethoOkHttpDebug    : "com.facebook.stetho:stetho-okhttp3:$versions.stethoDebug",
+        stethoRelease        : "net.igenius:stetho-no-op:$versions.stethoRelease",
+
+
+        rxJava               : "io.reactivex.rxjava2:rxjava:$versions.rxJava",
+        rxAndroid            : "io.reactivex.rxjava2:rxandroid:$versions.rxAndroid",
+        rxKotlin             : "io.reactivex.rxjava2:rxkotlin:$versions.rxKotlin",
+        rxRelay              : "com.jakewharton.rxrelay2:rxrelay:$versions.rxRelay",
+        rxBindings           : "com.jakewharton.rxbinding3:rxbinding:$versions.rxBindings",
+
+        glide                : "com.github.bumptech.glide:glide:$versions.glide",
+        facebookSdk          : "com.facebook.android:facebook-android-sdk:$versions.facebookSdk",
+        swipeLayout          : "com.daimajia.swipelayout:library:$versions.swipeLayout",
+        textdrawable         : "com.amulyakhare:com.amulyakhare.textdrawable:$versions.textdrawable",
+        pagerIndicator       : "com.romandanylyk:pageindicatorview:$versions.pagerIndicator",
+        materialColors       : "com.wada811:android-material-design-colors:$versions.materialColors",
+
+        crashlytics          : "com.crashlytics.sdk.android:crashlytics:$versions.crashlytics",
+
+        androidJob           : "com.evernote:android-job:$versions.androidJob",
+
+        blurry               : "jp.wasabeef:blurry:$versions.blurry",
+        asdp                 : "com.github.adhishlal:asdp:$versions.asdp",
+
+        //ExoPlayer
+        exoplayerCore        : "com.google.android.exoplayer:exoplayer-core:$versions.exoplayer",
+        exoplayerUi          : "com.google.android.exoplayer:exoplayer-ui:$versions.exoplayer",
+
+        intercom             : "io.intercom.android:intercom-sdk-base-transitive:$versions.intercom",
+        multipicker          : "com.kbeanie:multipicker:$versions.multipicker",
+        zxing                : "me.dm7.barcodescanner:zxing:$versions.zxing"
+
+]

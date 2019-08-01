@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="base_progress_size">50dp</dimen>
+    <dimen name="base_progress_size_small">35dp</dimen>
+    <dimen name="base_progress_border_width">2dp</dimen>
+    <dimen name="base_dialog_24">@dimen/_24asdp</dimen>
+    <dimen name="base_dialog_8">@dimen/_8asdp</dimen>
+    <dimen name="base_recycler_text_size">14sp</dimen>
+    <dimen name="base_recycler_text_margin">10dp</dimen>
+    <dimen name="toolbar_title_margin">56dp</dimen>
+
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_translation">4dp</dimen>
+    <dimen name="card_translation_pressed">8dp</dimen>
+    <dimen name="card_overlay">20dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_16dp">16dp</dimen> <!--elevation + translation-->
+
+    <dimen name="pager_margin">25dp</dimen>
+
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+
+    <dimen name="stpi_default_text_size">12sp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+
+</resources>

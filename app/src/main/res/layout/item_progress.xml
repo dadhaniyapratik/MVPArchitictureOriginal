@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress XmlUnusedNamespaceDeclaration -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45asdp"
+    android:orientation="vertical"
+    >
+
+    <com.mvparchiticture.ui.common.widgets.common.CircularProgressView
+        android:layout_width="@dimen/_30asdp"
+        android:layout_height="@dimen/_30asdp"
+        android:layout_gravity="center"
+        app:cpv_border_width="@dimen/base_progress_border_width"
+        app:cpv_progressColor="@color/colorPrimary"
+        />
+
+</FrameLayout>

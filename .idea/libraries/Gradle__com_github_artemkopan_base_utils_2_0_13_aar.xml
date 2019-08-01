@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.artemkopan:base-utils:2.0.13@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c25e1967209a63d50d6b4bc175c62af/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c25e1967209a63d50d6b4bc175c62af/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c25e1967209a63d50d6b4bc175c62af/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.artemkopan/base-utils/2.0.13/fd3693d7500f66913d2d64f44b405b485ab58e2d/base-utils-2.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

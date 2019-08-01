@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/_5asdp"
+    app:cardElevation="@dimen/_4asdp"
+    app:cardUseCompatPadding="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guidelineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/_16asdp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guidelineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/_16asdp" />
+
+        <ImageView
+            android:id="@+id/dConfirmationDialog_ivDialogImage"
+            android:layout_width="@dimen/_50asdp"
+            android:layout_height="@dimen/_50asdp"
+            android:layout_marginTop="@dimen/_16asdp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontTextView
+            android:id="@+id/dConfirmationDialog_ivDialogTitle"
+            style="@style/TextViewMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16asdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_16asdp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/dConfirmationDialog_ivDialogImage"
+            app:textStyle="@integer/helvetica_neue_bold"
+            tools:text="Sent! Check your email." />
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontTextView
+            android:id="@+id/dConfirmationDialog_ivDialogDetails"
+            style="@style/TextViewMore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8asdp"
+            android:gravity="center"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:textColor="@color/color_4A4A4A"
+            android:textSize="@dimen/_14asdp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/dConfirmationDialog_ivDialogTitle"
+            app:textStyle="@integer/font_style_light"
+            tools:text="We have sent an email with instructions to reset your password." />
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontButton
+            android:id="@+id/dConfirmationDialog_btnPositive"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/_4asdp"
+            android:layout_marginTop="@dimen/_16asdp"
+            android:layout_marginRight="@dimen/_4asdp"
+            android:layout_marginBottom="@dimen/_16asdp"
+            android:text="@string/lbl_okay"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/dConfirmationDialog_btnNegative"
+            app:layout_constraintTop_toBottomOf="@+id/dConfirmationDialog_ivDialogDetails"
+            app:textStyle="@integer/helvetica_neue_bold" />
+
+        <com.mvparchiticture.ui.common.widgets.fonts.FontButton
+            android:id="@+id/dConfirmationDialog_btnNegative"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/_4asdp"
+            android:layout_marginTop="@dimen/_16asdp"
+            android:layout_marginRight="@dimen/_4asdp"
+            android:layout_marginBottom="@dimen/_16asdp"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dConfirmationDialog_btnPositive"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/dConfirmationDialog_ivDialogDetails"
+            app:textStyle="@integer/helvetica_neue_bold" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

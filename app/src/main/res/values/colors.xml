@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#363636</color>-->
+    <!--<color name="colorPrimaryDark">#ef3340</color>-->
+    <!--<color name="colorAccent">@color/md_black</color>-->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="dialog_progress_background">#48000000</color>
+    <color name="color_363636">#363636</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_4A4A4A">#4A4A4A</color>
+    <color name="color_8895B3">#8895B3</color>
+    <color name="color_CDCED2">#CDCED2</color>
+    <color name="color_9FA3A5">#9FA3A5</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_EF3340">#008577</color>
+    <color name="color_707070">#707070</color>
+    <color name="color_FEFEFE">#fefefe</color>
+    <color name="color_999896">#999896</color>
+    <color name="colorDarkButtonTint">#DDCFE8</color>
+
+</resources>
